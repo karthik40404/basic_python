@@ -69,3 +69,8 @@
 #         a=65
 #         print(chr(i+j),end="")
 #     print()
+
+l=[1,2,3,'abc','def',20]
+for i in l:
+    if type(i)==str:
+        print(i[::-1])
