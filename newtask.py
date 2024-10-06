@@ -75,9 +75,29 @@
 #     if type(i)==str:
 #         print(i[::-1])
 
-data=['hello','welcome','hai']
-for i in data:
-    # len(i[0])=len(i[1])=len(i[2])
-    if len(i)==7:
-        print(i)
 
+data = ['hello', 'welcome', 'hai']
+ls = []
+for i in data:
+    if len(i) > len(ls):
+        ls = i
+print("The largest string is:", ls)
+
+
+data = ['hello', 'welcome', 'hai']
+ls = data[0] 
+
+for i in data:
+    if len(i) < len(ls): 
+        ls = i
+
+print("The smallest string is:", ls)
+
+l = [1, 2, 3, 4, 3, 2, 6, 7, 0]
+
+l_unique = []
+for i in l:
+    if i not in l_unique:
+        l_unique.append(i)
+
+print("List without duplicates:", l_unique)
