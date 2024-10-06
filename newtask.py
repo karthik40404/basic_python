@@ -70,7 +70,14 @@
 #         print(chr(i+j),end="")
 #     print()
 
-l=[1,2,3,'abc','def',20]
-for i in l:
-    if type(i)==str:
-        print(i[::-1])
+# l=[1,2,3,'abc','def',20]
+# for i in l:
+#     if type(i)==str:
+#         print(i[::-1])
+
+data=['hello','welcome','hai']
+for i in data:
+    # len(i[0])=len(i[1])=len(i[2])
+    if len(i)==7:
+        print(i)
+

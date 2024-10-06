@@ -25,10 +25,10 @@
 
 '''function with arbitury argument'''
 
-def add(*a):# *used to select the arguments
-    return a
-print(add('saan',35))
-print(add())
+# def add(*a):# *used to select the arguments
+#     return a
+# print(add('saan',35))
+# print(add())
 
 '''function with arbitury keyword argument'''
 
