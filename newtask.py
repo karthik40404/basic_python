@@ -76,28 +76,53 @@
 #         print(i[::-1])
 
 
-data = ['hello', 'welcome', 'hai']
-ls = []
-for i in data:
-    if len(i) > len(ls):
-        ls = i
-print("The largest string is:", ls)
+# data = ['hello', 'welcome', 'hai']
+# ls = []
+# for i in data:
+#     if len(i) > len(ls):
+#         ls = i
+# print("The largest string is:", ls)
 
 
-data = ['hello', 'welcome', 'hai']
-ls = data[0] 
+# data = ['hello', 'welcome', 'hai']
+# ls = data[0] 
 
-for i in data:
-    if len(i) < len(ls): 
-        ls = i
+# for i in data:
+#     if len(i) < len(ls): 
+#         ls = i
 
-print("The smallest string is:", ls)
+# print("The smallest string is:", ls)
 
-l = [1, 2, 3, 4, 3, 2, 6, 7, 0]
+# l = [1, 2, 3, 4, 3, 2, 6, 7, 0]
 
-l_unique = []
-for i in l:
-    if i not in l_unique:
-        l_unique.append(i)
+# l_unique = []
+# for i in l:
+#     if i not in l_unique:
+#         l_unique.append(i)
 
-print("List without duplicates:", l_unique)
+# print("List without duplicates:", l_unique)
+
+
+# num = 1
+# char = ord('a')
+
+# for i in range(3):
+#     line = ""
+#     for j in range(3):
+#         if j == i:
+#             line += str(num)
+#         else:
+#             line += chr(char + i)
+#     print(line)
+
+a = 1
+b = 65
+
+for i in range(3):
+    line = ""
+    for j in range(3):       
+        if j == i:
+            line += str(a)
+        else:
+            line += chr(b + i)
+    print(line)
