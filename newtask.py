@@ -127,12 +127,12 @@
 #             line += chr(b + i)
 #     print(line)
 
-num = 1
-for i in [3, 2, 1]:
-    for j in range(i):
-        print(num, end="")
-        num += 1
-    print()  
+# num = 1
+# for i in [3, 2, 1]:
+#     for j in range(i):
+#         print(num, end="")
+#         num += 1
+#     print()  
 
 # list=[1,2,3,4,3,5,'a','a','d']
 # for i in range(len(list)):
@@ -153,3 +153,12 @@ for i in [3, 2, 1]:
 #        print(chr(65+j),end="\t")
 #     print()  
 
+# n = 3  
+# for i in range(n, 0, -1):
+#     print("abc"[0:i])
+
+# a=64
+# for i in range(3,0,-1):
+#     for j in range(i):
+#         print(chr((a+1)+j), end='')
+#     print()
