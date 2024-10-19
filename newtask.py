@@ -115,14 +115,41 @@
 #             line += chr(char + i)
 #     print(line)
 
-a = 1
-b = 65
+# a = 1
+# b = 65
 
-for i in range(3):
-    line = ""
-    for j in range(3):       
-        if j == i:
-            line += str(a)
-        else:
-            line += chr(b + i)
-    print(line)
+# for i in range(3):
+#     line = ""
+#     for j in range(3):       
+#         if j == i:
+#             line += str(a)
+#         else:
+#             line += chr(b + i)
+#     print(line)
+
+num = 1
+for i in [3, 2, 1]:
+    for j in range(i):
+        print(num, end="")
+        num += 1
+    print()  
+
+# list=[1,2,3,4,3,5,'a','a','d']
+# for i in range(len(list)):
+#     if list[i] not in list[:i]:
+#         print(list[i])
+
+# for i in range(5):
+#     a=65+i
+#     for j in range(i):
+#         print(chr(a),end="\t")
+#         a+=j
+#     print()   
+
+# for i in range(4):
+#     for j in range(i,0,-1):
+#        a=65
+#        a+=i
+#        print(chr(65+j),end="\t")
+#     print()  
+
