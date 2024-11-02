@@ -162,3 +162,11 @@
 #     for j in range(i):
 #         print(chr((a+1)+j), end='')
 #     print()
+
+l="welcome"
+rev=""
+index=len(l)-1
+while index >=0:
+    rev+=l[index] 
+    index-=1
+print(rev)
